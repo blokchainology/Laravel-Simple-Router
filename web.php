@@ -37,7 +37,7 @@ Route::get('shop', function () {
     return view("shop");
 });
 
-Route::get('contact', function ($id) {
+Route::get('contact', function () {
     return view("contact");
 });
 
